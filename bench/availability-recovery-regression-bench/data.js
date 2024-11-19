@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732032140738,
+  "lastUpdate": 1732048076000,
   "repoUrl": "https://github.com/paritytech/polkadot-sdk",
   "entries": {
     "availability-recovery-regression-bench": [
@@ -30307,6 +30307,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "test-environment",
             "value": 0.22835799213333335,
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "33208377+ndkazu@users.noreply.github.com",
+            "name": "Kazunobu Ndong",
+            "username": "ndkazu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "09757a4164d44f224b44291f1e01b1e813a52220",
+          "message": " Migrate pallet-democracy benchmarks to benchmark v2 syntax (#6509)\n\n# Description\n\nMigrates pallet-democracy benchmarks to benchmark v2 syntax\nThis is Part of https://github.com/paritytech/polkadot-sdk/issues/6202\n\n---------\n\nCo-authored-by: Bastian Köcher <git@kchr.de>\nCo-authored-by: command-bot <>\nCo-authored-by: Dmitry Markin <dmitry@markin.tech>\nCo-authored-by: Alexandru Vasile <60601340+lexnv@users.noreply.github.com>",
+          "timestamp": "2024-11-19T19:08:46Z",
+          "tree_id": "a3294553ae7be84bf97743ce31d39d86d4235dba",
+          "url": "https://github.com/paritytech/polkadot-sdk/commit/09757a4164d44f224b44291f1e01b1e813a52220"
+        },
+        "date": 1732048057149,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Received from peers",
+            "value": 307203,
+            "unit": "KiB"
+          },
+          {
+            "name": "Sent to peers",
+            "value": 1.6666666666666665,
+            "unit": "KiB"
+          },
+          {
+            "name": "availability-recovery",
+            "value": 11.402121355633334,
+            "unit": "seconds"
+          },
+          {
+            "name": "test-environment",
+            "value": 0.23219514380000006,
             "unit": "seconds"
           }
         ]
