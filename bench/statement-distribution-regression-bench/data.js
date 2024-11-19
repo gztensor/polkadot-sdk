@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732032221190,
+  "lastUpdate": 1732048155747,
   "repoUrl": "https://github.com/paritytech/polkadot-sdk",
   "entries": {
     "statement-distribution-regression-bench": [
@@ -20851,6 +20851,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "statement-distribution",
             "value": 0.03551599604599999,
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "33208377+ndkazu@users.noreply.github.com",
+            "name": "Kazunobu Ndong",
+            "username": "ndkazu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "09757a4164d44f224b44291f1e01b1e813a52220",
+          "message": " Migrate pallet-democracy benchmarks to benchmark v2 syntax (#6509)\n\n# Description\n\nMigrates pallet-democracy benchmarks to benchmark v2 syntax\nThis is Part of https://github.com/paritytech/polkadot-sdk/issues/6202\n\n---------\n\nCo-authored-by: Bastian Köcher <git@kchr.de>\nCo-authored-by: command-bot <>\nCo-authored-by: Dmitry Markin <dmitry@markin.tech>\nCo-authored-by: Alexandru Vasile <60601340+lexnv@users.noreply.github.com>",
+          "timestamp": "2024-11-19T19:08:46Z",
+          "tree_id": "a3294553ae7be84bf97743ce31d39d86d4235dba",
+          "url": "https://github.com/paritytech/polkadot-sdk/commit/09757a4164d44f224b44291f1e01b1e813a52220"
+        },
+        "date": 1732048136673,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Sent to peers",
+            "value": 127.94799999999995,
+            "unit": "KiB"
+          },
+          {
+            "name": "Received from peers",
+            "value": 106.39999999999996,
+            "unit": "KiB"
+          },
+          {
+            "name": "test-environment",
+            "value": 0.04603189180799995,
+            "unit": "seconds"
+          },
+          {
+            "name": "statement-distribution",
+            "value": 0.03592746515600002,
             "unit": "seconds"
           }
         ]
