@@ -159,9 +159,9 @@ where
 					.max_subscriptions_per_connection(max_subscriptions_per_connection)
 					.enable_ws_ping(
 						PingConfig::new()
-							.ping_interval(Duration::from_secs(30))
-							.inactive_limit(Duration::from_secs(60))
-							.max_failures(3),
+							.ping_interval(Duration::from_secs(60))
+							.inactive_limit(Duration::from_secs(120))
+							.max_failures(6),
 					)
 					.set_http_middleware(http_middleware)
 					.set_message_buffer_capacity(max_buffer_capacity_per_connection)
